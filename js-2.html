@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task-2</title>
+</head>
+<body>
+    <h1>The given string is:webmaster</h1>
+    <p> The reversed string is:</p>
+    <script>
+        function alphaString(str) {
+    
+    let charArray = str.split('');
+    
+    
+    charArray.sort();
+    
+    
+    let sortedStr = charArray.join('');
+    
+    return sortedStr;
+}
+
+
+let exampleString = 'webmaster';
+let sortedString = alphaString(exampleString);
+
+document.write(sortedString); 
+
+    </script>
+    
+</body>
+</html>
